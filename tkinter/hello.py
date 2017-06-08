@@ -1,4 +1,5 @@
 from tkinter import *
+# init
 root = Tk()
 w = Label(root, text="Hello, world!")
 w.pack()

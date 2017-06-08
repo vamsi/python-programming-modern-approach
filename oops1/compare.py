@@ -51,4 +51,6 @@ b3 = Box(8, 2, 7)
 b3.describe()
 b3.reset()
 b3.describe()
+
+Box.compare(b1, b2)
 b1.compare(b2)

@@ -1,7 +1,7 @@
 # Take the inputs
-fileName = input("Enter the file name: ")
-inputFile = open(fileName, 'r')
-text = inputFile.read()
+file_name = input("Enter the file name: ")
+input_file = open(file_name, 'r')
+text = input_file.read()
 
 # Count the sentences
 sentences = text.count('.') + text.count('?') + \

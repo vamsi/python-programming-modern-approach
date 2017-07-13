@@ -1,7 +1,7 @@
 weight = float(input("Enter your weight in Kg"))
 height = float(input("Enter your height in Cms"))
 
-bmi = weight / (height**2)
+bmi = (weight / (height**2)) * 10000
 print("Computing...")
 print("Your bmi is {}\n".format(bmi))
 if bmi < 18.5:

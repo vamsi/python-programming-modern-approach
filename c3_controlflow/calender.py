@@ -1,4 +1,3 @@
-
 i = 1
 days = int(input("Enter number of days in month"))
 start = int(input("Enter day of the month"))
